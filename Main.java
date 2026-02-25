@@ -1,10 +1,14 @@
-public static void main (String[] args){
-    Vehiculo vehiculo = new Vehiculo("Totoya" , "Corolla", 180.0);
-    vehiculo.mostrarInformacion();
+public class Main {
+    public static void main(String[] args) {
 
-    Motocicleta moto = new Motocicleta("Honda","CBR600",250,600);
-    moto.mostrarinformacion();
+       
+        Empleado empleado = new Empleado("Carlos Lopez", 3000.0);
+        empleado.calcularSalario();
 
+        System.out.println();
 
-
+       
+        Bono empleadoBono = new Bono("Ana Garcia", 3000.0, 800.0);
+        empleadoBono.calcularSalario();
+    }
 }
