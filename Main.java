@@ -1,14 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-       
-        Empleado empleado = new Empleado("Carlos Lopez", 3000.0);
-        empleado.calcularSalario();
+   
+        Animal animal = new Animal("Animal genérico", 5);
+        animal.hacerSonido();
 
         System.out.println();
-
-       
-        Bono empleadoBono = new Bono("Ana Garcia", 3000.0, 800.0);
-        empleadoBono.calcularSalario();
+        Perro perro = new Perro("Rex", 3, "Pastor Alemán");
+        perro.hacerSonido();
     }
 }
